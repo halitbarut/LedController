@@ -9,9 +9,11 @@ This project transforms a standard Bluetooth LED strip into a Wi-Fi controllable
 
 This repository demonstrates how to extend the capabilities of a local Bluetooth device using web technologies, turning it into a true smart-home component.
 
-### 📱 Screenshot
+### 📱 Screenshots
 
-[Add a nice screenshot of your modern app UI here!]
+| Main Screen | Settings | Dark Theme |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/6539f896-74d5-4fb3-81b4-7f6be87fb123" width="250" /> | <img src="https://github.com/user-attachments/assets/6f16698d-b291-42d7-becf-036a7c61e82e" width="250" /> | <img src="https://github.com/user-attachments/assets/a678dc42-c17e-4b66-b166-1f12ce3ca054" width="250" /> |
 
 ### ✨ Features
 
@@ -83,9 +85,11 @@ Bu proje, standart bir Bluetooth şerit LED'i, bir Linux sunucusu, n8n otomasyon
 
 Bu repozitori, yerel bir Bluetooth cihazının yeteneklerini web teknolojileriyle nasıl genişletebileceğimizi gösteren baştan sona bir IoT (Nesnelerin İnterneti) çözümüdür.
 
-### 📱 Ekran Görüntüsü
+### 📱 Ekran Görüntüleri
 
-[Uygulamanızın şık ve modern arayüzünün bir ekran görüntüsünü buraya ekleyin!]
+| Ana Ekran | Ayarlar | Karanlık Tema |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/aa5a8a3d-4462-495b-a8fa-48fdf40b4ee8" width="250" /> | <img src="https://github.com/user-attachments/assets/21219296-fe50-4d14-b4b3-4d52f9891009" width="250" /> | <img src="https://github.com/user-attachments/assets/53949f57-229b-40d9-97da-16bd5feae997" width="250" /> |
 
 ### ✨ Özellikler
 
@@ -102,7 +106,7 @@ Bu proje 3 ana bileşenden oluşur:
 
 #### 1. Linux API Sunucusu
 - **Dil:** Python 3
-- **Kütüphaneler:** `Flask` (Web sunucusu), `Bleak` (Asenkron Bluetooth LE istemcisi)
+- **Kütüphaneler:** `Flask` (Web sunucusu), `Bleak` (Asynchron Bluetooth LE istemcisi)
 - **Servis Yönetimi:** `systemd` ile arka planda sürekli çalışma ve otomatik başlama.
 - **Görevi:** Gelen web isteklerini (HTTP) alıp Bluetooth komutlarına çevirerek LED'e göndermek.
 
